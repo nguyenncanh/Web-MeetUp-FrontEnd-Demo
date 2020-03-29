@@ -1,9 +1,12 @@
 .container-download {
-    height: 320px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .download-group {
-    margin: 0 269px;
+    width: 64em;
+    height: 17.5em;
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
@@ -14,11 +17,12 @@
     flex-direction: column;
     justify-content: center;
     flex-grow: 1;
+    height: 15em;
     padding-left: 90px;
 }
 
 .download-info h3 {
-    font-size: 28px;
+    font-size: 34px;
     margin: 0;
     font-weight: 600;
 }
@@ -30,8 +34,8 @@
 }
 
 .download-info .link img {
-    width: 130px;
-    height: 40px;
+    width: 140px;
+    height: 50px;
 }
 
 .download-info a {
@@ -39,7 +43,7 @@
     color: #00a2c7;
     padding-top: 3px;
     font-weight: 600;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .download-info a span {
