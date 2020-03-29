@@ -1,0 +1,26 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.categories-item a img {
+    height: 160px;
+    width: 253px;
+    border: 1px solid rgba(46, 62, 72, 0);
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.categories-item a {
+    text-decoration: none;
+}
+
+.categories-item a h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.categories-item {
+    padding: 0 16px 16px 0;
+    width: 253px;
+}
