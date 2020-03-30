@@ -23,7 +23,7 @@
 
 .group-top a {
     color: #fff;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .group-top a:hover {
@@ -42,49 +42,50 @@
     flex-direction: column;
 }
 
-.group h4,
+.group-bottom .group h4,
 a {
-    font-size: 18px
+    font-size: 19px;
 }
 
-.group h4 {
+.group-bottom .group h4 {
     font-weight: 600;
     color: #fff;
     margin: 0 0 20px 0;
 }
 
-.group a {
+.group-bottom .group a {
     font-weight: 300;
     color: rgba(255, 255, 255, 0.7);
     padding: 0 0 24px 0;
+    text-decoration: none;
 }
 
-.group {
+.group-bottom .group {
     padding-left: 20px;
 }
 
-.group:first-child {
+.group-bottom .group:first-child {
     padding-left: 0;
 }
 
-.follow {
+.group-bottom .follow {
     width: 340px;
     padding-left: 20px;
 }
 
-.follow h4 {
+.group-bottom .follow h4 {
     color: #fff;
     font-size: 16px;
     margin: 0 0 20px 0;
 }
 
-.social-icon i {
+.group-bottom .social-icon i {
     font-size: 22px;
     color: rgba(255, 255, 255, 0.7);
     padding: 2px 40px 40px 0;
 }
 
-.select {
+.group-bottom .select {
     border: 1px solid #FFF;
     border-radius: 4px;
     background: #0F1721;
@@ -95,11 +96,11 @@ a {
     padding: 20px;
 }
 
-.select:hover {
+.group-bottom .select:hover {
     border-color: #9b9fa3;
 }
 
-.select:link {
+.group-bottom .select:link {
     border-color: #00FFFF;
 }
 
@@ -125,14 +126,17 @@ a {
     margin-top: 20px;
 }
 
-.footer-2 .info li,
-a {
+.footer-2 .info {
     list-style: none;
-    font-size: 14px;
+}
+
+.footer-2 .info a {
+    font-size: 16px;
 }
 
 .footer-2 .info li:first-child span {
     padding-right: 5px;
+    font-size: 14px;
 }
 
 .footer-2 .info li:first-child:after {
