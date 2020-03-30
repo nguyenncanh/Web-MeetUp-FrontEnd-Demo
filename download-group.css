@@ -27,14 +27,14 @@
     font-weight: 600;
 }
 
-.download-info .link {
+.link {
     display: flex;
     margin-top: 20px;
     padding-top: 20px;
 }
 
-.download-info .link img {
-    width: 140px;
+.link img {
+    width: 159px;
     height: 50px;
 }
 
@@ -51,7 +51,7 @@
     font-size: 17px;
 }
 
-.download-info .link a:last-child {
+.link a:last-child {
     padding-left: 20px;
 }
 

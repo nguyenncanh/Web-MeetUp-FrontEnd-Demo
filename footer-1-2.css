@@ -1,0 +1,151 @@
+.footer-1 {
+    height: 527.4px;
+    background-color: #353e48;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-group {
+    width: 1060px;
+    height: 527.4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-1 h3 {
+    color: #fff;
+}
+
+.group-top {
+    padding: 40px 0 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.group-top a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.group-top a:hover {
+    text-decoration: none;
+}
+
+.group-bottom {
+    display: flex;
+    padding: 40px 0 20px 0;
+}
+
+.group-bottom .group {
+    width: 220px;
+    height: 343.4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.group h4,
+a {
+    font-size: 18px
+}
+
+.group h4 {
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 20px 0;
+}
+
+.group a {
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 0 0 24px 0;
+}
+
+.group {
+    padding-left: 20px;
+}
+
+.group:first-child {
+    padding-left: 0;
+}
+
+.follow {
+    width: 340px;
+    padding-left: 20px;
+}
+
+.follow h4 {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 0 20px 0;
+}
+
+.social-icon i {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 2px 40px 40px 0;
+}
+
+.select {
+    border: 1px solid #FFF;
+    border-radius: 4px;
+    background: #0F1721;
+    color: #fff;
+    width: 340px;
+    height: 65.2px;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.select:hover {
+    border-color: #9b9fa3;
+}
+
+.select:link {
+    border-color: #00FFFF;
+}
+
+.footer-2 {
+    display: flex;
+    justify-content: center;
+    background-color: #2f363f;
+    color: #FFF;
+}
+
+.footer-2 .padding-all {
+    width: 1060px;
+    padding: 20px;
+}
+
+.footer-2 .info {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-2 .info:last-child {
+    margin-top: 20px;
+}
+
+.footer-2 .info li,
+a {
+    list-style: none;
+    font-size: 14px;
+}
+
+.footer-2 .info li:first-child span {
+    padding-right: 5px;
+}
+
+.footer-2 .info li:first-child:after {
+    content: attr(data-separator);
+    padding: 0 10px 0;
+}
+
+.last-li::after {
+    content: attr(data-separator);
+    padding: 0 10px 0;
+}
+
+.footer-2 .info li a {
+    text-decoration: none;
+    color: #FFF;
+}
