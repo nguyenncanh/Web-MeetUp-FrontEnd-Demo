@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <LINK rel="shortcut icon" href="./img/favicon.ico">
+    <link rel="shortcut icon" href="./img/favicon.ico">
     <title>We are what we do | Meetup</title>
     <link href="./fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./event-card-style.css">
     <link rel="stylesheet" href="./categories-style.css">
     <link rel="stylesheet" href="./how-to-use.css">
     <link rel="stylesheet" href="./download-group.css">
     <link rel="stylesheet" href="./footer-1-2.css">
     <link rel="stylesheet" href="./navigation.css">
+    <link rel="stylesheet" href="./event-part.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+
 </head>
 
 <body>
@@ -29,22 +35,77 @@
             </div>
         </div>
     </div>
-    <div class="event-card">
-        <a href="#">
-            <div class="event-info">
-                <div class="event-time">Sun &sbquo; March 29 &sbquo; 8:30 a.m.</div>
-                <div class="event-name">New &#9788; Discovery of Etretat &#38; Pont-Audemer &#9788; DAY TRIP &#36;...</div>
-                <div class="event-location">Weekends in France &#38 in Europe</div>
-                <div class="event-place">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <div class="place">No place yet</div>
-                </div>
-                <div class="participants">
-                    <div class="participants-count">4 participants</div>
-                    <a href="#" class="participate-button">Participate</a>
+    <div id="slider">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <div class="event-card" onclick="eventClick()">
+                    <div class="event-info">
+                        <div class="event-time">Sun &sbquo; March 29 &sbquo; 8:30 a.m.</div>
+                        <div class="event-name">New &#9788; Discovery of Etretat &#38; Pont-Audemer &#9788; DAY TRIP &#36;...</div>
+                        <div class="event-location">Weekends in France &#38 in Europe</div>
+                        <div class="event-place">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="place">No place yet</div>
+                        </div>
+                        <div class="participants">
+                            <div class="participants-count">4 participants</div>
+                            <a href="#" class="participate-button">Participate</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </a>
+            <div class="item">
+                <div class="event-card" onclick="eventClick()">
+                    <div class="event-info">
+                        <div class="event-time">Sun &sbquo; March 29 &sbquo; 8:30 a.m.</div>
+                        <div class="event-name">New &#9788; Discovery of Etretat &#38; Pont-Audemer &#9788; DAY TRIP &#36;...</div>
+                        <div class="event-location">Weekends in France &#38 in Europe</div>
+                        <div class="event-place">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="place">No place yet</div>
+                        </div>
+                        <div class="participants">
+                            <div class="participants-count">4 participants</div>
+                            <a href="#" class="participate-button">Participate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event-card" onclick="eventClick()">
+                    <div class="event-info">
+                        <div class="event-time">Sun &sbquo; March 29 &sbquo; 8:30 a.m.</div>
+                        <div class="event-name">New &#9788; Discovery of Etretat &#38; Pont-Audemer &#9788; DAY TRIP &#36;...</div>
+                        <div class="event-location">Weekends in France &#38 in Europe</div>
+                        <div class="event-place">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="place">No place yet</div>
+                        </div>
+                        <div class="participants">
+                            <div class="participants-count">4 participants</div>
+                            <a href="#" class="participate-button">Participate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="event-card" onclick="eventClick()">
+                    <div class="event-info">
+                        <div class="event-time">Sun &sbquo; March 29 &sbquo; 8:30 a.m.</div>
+                        <div class="event-name">New &#9788; Discovery of Etretat &#38; Pont-Audemer &#9788; DAY TRIP &#36;...</div>
+                        <div class="event-location">Weekends in France &#38 in Europe</div>
+                        <div class="event-place">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="place">No place yet</div>
+                        </div>
+                        <div class="participants">
+                            <div class="participants-count">4 participants</div>
+                            <a href="#" class="participate-button">Participate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div class="categories">
@@ -207,7 +268,6 @@
         </div>
     </div>
 
-
     <div class="container-htu">
         <div class="how-to-use">
             <h1 class="question">How to use Meetup&#63;</h1>
@@ -325,6 +385,8 @@
             </ul>
         </div>
     </div>
+    <script src="./owl-carouesl.js"></script>
+    <script src="./web-meetup.js"></script>
 </body>
 
 </html>
