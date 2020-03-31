@@ -8,6 +8,12 @@
     background-color: #FFF;
     box-shadow: 0 0 .05px 0 rgba(46, 62, 72, .12), 0 2px 4px 0 rgba(46, 62, 72, .12);
     cursor: pointer;
+    transform: translate(0 0);
+    transition: all 0.2s;
+}
+
+.event-card:hover {
+    transform: translate(2px, -2px);
 }
 
 .event-card a {
