@@ -1,0 +1,104 @@
+#slider {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.owl-carousel,
+.owl-stage-outer {
+    width: 1060px !important;
+    height: 250px !important;
+}
+
+.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    left: -3.2%;
+    font-size: 60px;
+    border: 1px solid rgba(46, 62, 72, .12);
+    background-color: #fff;
+    box-shadow: 0 0 .05px 0 rgba(46, 62, 72, .12), 0 2px 4px 0 rgba(46, 62, 72, .12);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    z-index: 10;
+}
+
+.owl-carousel .owl-nav button.owl-prev span {
+    position: absolute;
+    top: -42%;
+    left: 20%;
+}
+
+.owl-carousel .owl-nav button.owl-next span {
+    position: absolute;
+    top: -42%;
+    right: 20%;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    right: -3%;
+    font-size: 60px;
+    border: 1px solid rgba(46, 62, 72, .12);
+    background-color: #fff;
+    box-shadow: 0 0 .05px 0 rgba(46, 62, 72, .12), 0 2px 4px 0 rgba(46, 62, 72, .12);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    z-index: 10;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover {
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    left: -3.2%;
+    font-size: 60px;
+    border: 1px solid rgba(46, 62, 72, .12);
+    background-color: #fff;
+    box-shadow: 0 0 .05px 0 rgba(46, 62, 72, .12), 0 2px 4px 0 rgba(46, 62, 72, .12);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    z-index: 10;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover {
+    color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+    position: absolute;
+    top: 40%;
+    right: -3%;
+    font-size: 60px;
+    border: 1px solid rgba(46, 62, 72, .12);
+    background-color: #fff;
+    box-shadow: 0 0 .05px 0 rgba(46, 62, 72, .12), 0 2px 4px 0 rgba(46, 62, 72, .12);
+    border-radius: 100%;
+    width: 45px;
+    height: 45px;
+    z-index: 10;
+}
+
+button:focus {
+    outline: 0;
+    /*Xóa viền màu xanh mặc định khi nhấn button*/
+}

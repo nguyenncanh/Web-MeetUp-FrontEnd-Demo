@@ -1,0 +1,47 @@
+.navigation {
+    width: 100%;
+    height: 86.2px;
+}
+
+.navigation .navi-padding {
+    padding: 20px;
+    position: relative;
+}
+
+.navigation .navi-padding .logo img {
+    width: 123.21px;
+    height: 44px;
+}
+
+.navigation .navi-padding .menubar {
+    position: absolute;
+    right: 20px;
+}
+
+.navigation .navi-padding {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .navi-padding a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navigation .navi-padding .start a {
+    font-weight: 600;
+    color: #00a2c7;
+    padding-right: 16px;
+    border-right: 1px solid rgba(46, 62, 72, .12);
+}
+
+.navigation .navi-padding .login a,
+.sign-up a {
+    padding-left: 16px;
+    color: #757575;
+}
+
+.navigation .navi-padding .login a:hover,
+.sign-up a:hover {
+    color: #00a2c7;
+}

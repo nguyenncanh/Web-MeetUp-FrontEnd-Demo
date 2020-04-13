@@ -1,0 +1,88 @@
+body {
+    font-family: 'Comic Neue', cursive;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories .groups-near {
+    width: 1060px;
+    padding: 40px 0 0;
+}
+
+.groups-near .near {
+    display: flex;
+    position: relative;
+}
+
+.groups-near .near a {
+    position: absolute;
+    right: 5px;
+    color: #00a2c7;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.categories .categories-part {
+    width: 1060px;
+    height: 1330px;
+    padding: 40px 0 0;
+}
+
+.categories .categories-part h2,
+.groups-near h2 {
+    font-size: 24px;
+    color: #212121;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.categories .categories-part p,
+.groups-near p {
+    font-size: 20px;
+    color: #212121;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.categories .categories-part .categories-group .categories-item {
+    float: left;
+}
+
+.categories .categories-part .categories-group .categories-item:nth-child(4n) {
+    padding-right: 0;
+}
+
+.categories .categories-part .categories-group .categories-item:nth-child(5) {
+    clear: left;
+}
+
+.categories-item a img {
+    height: 160px;
+    width: 253px;
+    border: 1px solid rgba(46, 62, 72, 0);
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.categories-item a {
+    text-decoration: none;
+}
+
+.categories-item a h4 {
+    margin: 0;
+    padding-top: 4px;
+    font-size: 18px;
+    color: #212121;
+}
+
+.categories-item {
+    padding: 0 16px 16px 0;
+    width: 253px;
+}
